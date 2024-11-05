@@ -188,8 +188,8 @@ ViconDriverNode::on_configure(const rclcpp_lifecycle::State &)
 {
   initParameters();
 
-  markers_pub_ = create_publisher<mocap_interfaces::msg::MarkerArray>("/markers",
-    rclcpp::QoS(1000));
+  markers_pub_ = create_publisher<mocap_interfaces::msg::MarkerArray>(
+    "/markers", rclcpp::QoS(1000));
   rigid_bodies_pub_ = create_publisher<mocap_interfaces::msg::RigidBodyArray>(
     "/rigid_bodies", rclcpp::QoS(1000));
 

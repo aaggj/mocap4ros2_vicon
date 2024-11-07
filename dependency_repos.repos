@@ -1,8 +1,7 @@
 repositories:
-  mocap4r2_msgs:
+  mocap_interfaces:
     type: git
-    url: https://github.com/MOCAP4ROS2-Project/mocap4r2_msgs.git
-    version: rolling
+    url: https://github.com/MOCAP4ROS2-Project/mocap_interfaces.git
   mocap4r2:
     type: git
     url: https://github.com/MOCAP4ROS2-Project/mocap4r2.git
